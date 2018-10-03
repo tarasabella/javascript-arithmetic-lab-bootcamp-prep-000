@@ -27,7 +27,7 @@ a = "2.222";
 function preserveDecimal(a) {
 return parseFloat("a");
 }
-console.log(parseFloat("2.222"));
+console.log(parseFloat("a"));
 function preserveDecimal(a) {
   return parseInt("a", 10);
 }
