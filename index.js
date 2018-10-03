@@ -30,8 +30,7 @@ function preserveDecimal(a) {
   return parseInt("a", 10);
 }
 function preserveDecimal(a) {
-if (isNaN(a)) {
+if (isNaN("")) {
 return true;
 }
-return isNaN;
 }
