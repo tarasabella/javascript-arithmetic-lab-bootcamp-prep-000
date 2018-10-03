@@ -25,7 +25,7 @@ function makeInt(a) {
 }
 a = "2.222";
 function preserveDecimal(a) {
-return parseFloat("a");
+return parseFloat("a.toInteger");
 }
 console.log(parseFloat("a"));
 function preserveDecimal(a) {
