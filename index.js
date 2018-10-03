@@ -24,8 +24,14 @@ function makeInt(a) {
   return parseInt(a, 10);
 }
 function preserveDecimal(a) {
-return Number.parseFloat(a);
+return parseFloat(a);
 }
 function preserveDecimal(a) {
   return parseInt("a", 10);
+}
+function preserveDecimal(a) {
+if (isNaN(a)) {
+return true;
+}
+return a;
 }
