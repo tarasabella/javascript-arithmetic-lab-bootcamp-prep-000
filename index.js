@@ -29,4 +29,3 @@ function preserveDecimal(a) {
 function preserveDecimal(a) {
   return parseInt("a", 10)
 }
-}
