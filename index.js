@@ -23,7 +23,7 @@ function makeInt(a) {
 function makeInt(a) {
   return parseInt(a, 10)
 }
-var preserveDecimal = parseFLoat(a) {
+function preserveDecimal(a)
    parseFloat("a")
 }
 function preserveDecimal(a) {
