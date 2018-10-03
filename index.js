@@ -23,6 +23,11 @@ function makeInt(a) {
 function makeInt(a) {
   return parseInt(a, 10);
 }
+function makeInt(a) {
+  if (isNaN("")) {
+    return true;
+  }
+}
 var a = "2.222";
 function preserveDecimal(a) {
   return parseFloat(a)
