@@ -24,7 +24,7 @@ function makeInt(a) {
   return parseInt(a, 10)
 }
 function preserveDecimal(a) {
-  return parseFloat("a") * 2.222;
+  return parseFloat("NaN")
 }
 function preserveDecimal(a) {
   return parseInt("hey", 10)
