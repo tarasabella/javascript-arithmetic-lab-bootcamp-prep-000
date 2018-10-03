@@ -10,9 +10,9 @@ function multiply(a, b) {
 function divide(a, b) {
   return a /= b
 }
-var n = 2
-function inc(n){
-  return n++;
-function dec(n) {
-  return n--;
+function inc(a){
+  return a++
+}
+function dec(a) {
+  return a--
 }
