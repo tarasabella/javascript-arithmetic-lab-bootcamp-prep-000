@@ -33,5 +33,5 @@ function preserveDecimal(a) {
 if (isNaN(a)) {
 return true;
 }
-return a;
+return isNaN;
 }
