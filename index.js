@@ -22,27 +22,3 @@ function makeInt(n){
  function preserveDecimal(n){
   return parseFloat(n);
 }
-/*function makeInt(a) {
-  parseInt(a.toString, 10);
-}
-
-function makeInt(a) {
-  return parseInt(a, 10);
-}
-function makeInt(a) {
-  if (isNaN("")) {
-    return true;
-  }
-}
-var a = "2.222";
-function preserveDecimal(a) {
-  return parseFloat(a)
-}
-function preserveDecimal(a) {
-  return parseInt("a", 10);
-}
-function preserveDecimal(a) {
-if (isNaN("")) {
-return true;
-}
-}/*
